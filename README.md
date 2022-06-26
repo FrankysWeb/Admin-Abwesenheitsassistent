@@ -3,6 +3,7 @@ PowerShell Script mit GUI zum Aktivieres des Exchange Abwesenheitsassistents fü
 
 ## Benutzung
 Einfach einen Benutzer auswählen, für den die automatischen Antworten aktiviert werden sollen und auf "Laden" klicken. Danach die gewünschten Einstellungen auswählen und auf "Speichern" klicken.
+![Screenshot](Screenshot.png)
 
 ## Vorlage anpassen
 Die Vorlage für den Nachrichtentext kann in der PS1 Datei ab der Zeile 134 angepasst werden.

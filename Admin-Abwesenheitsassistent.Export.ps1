@@ -402,7 +402,7 @@ PQ5yyakXMpJ9oMWvCeXbldU/PdH5D0T47maJYgAA#>
 			{
 				#current OOF state
 				Write-Host "Successfully loaded Mailbox"
-				$state = Get-MailboxAutoReplyConfiguration frank | select AutoReplyState, starttime, endtime
+				$state = Get-MailboxAutoReplyConfiguration $username | select AutoReplyState, starttime, endtime
 				$status = $state.AutoReplyState
 				$start = $state.starttime
 				$end = $state.endtime
